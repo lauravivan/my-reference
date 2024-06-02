@@ -329,6 +329,10 @@ const store: StoreType[] = [
             name: "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead",
             link: "https://bobbyhadz.com/blog/support-for-password-authentication-was-removed-on-august",
           },
+          {
+            name: "Percent-encoding",
+            link: "https://developer.mozilla.org/en-US/docs/Glossary/Percent-encoding",
+          },
         ],
       },
       {
@@ -442,6 +446,14 @@ const store: StoreType[] = [
             name: "SVG Silh",
             link: "https://svgsilh.com/",
           },
+          {
+            name: "Boxy SVG",
+            link: "https://boxy-svg.com/",
+          },
+          {
+            name: "I Love IMG",
+            link: "https://www.iloveimg.com/",
+          },
         ],
       },
       {
@@ -467,6 +479,14 @@ const store: StoreType[] = [
             name: "Color Wheel",
             link: "https://color.adobe.com/pt/create/color-wheel",
           },
+          {
+            name: "Trending Color Palettes",
+            link: "https://coolors.co/palettes/trending",
+          },
+          {
+            name: "Color Contrast Checker",
+            link: "https://codepen.io/alvaromontoro/pen/YgpWZG",
+          },
         ],
       },
       {
@@ -479,6 +499,10 @@ const store: StoreType[] = [
           {
             name: "FlatIcon",
             link: "https://www.flaticon.com/",
+          },
+          {
+            name: "Ionicons",
+            link: "https://ionic.io/ionicons",
           },
         ],
       },
@@ -524,6 +548,30 @@ const store: StoreType[] = [
             name: "I Love PDF",
             link: "https://www.ilovepdf.com/pt",
           },
+          {
+            name: "Unminify",
+            link: "https://unminify.com/",
+          },
+          {
+            name: "readme",
+            link: "https://readme.so/editor",
+          },
+          {
+            name: "Adobe express GIF conversion",
+            link: "https://new.express.adobe.com/tools/convert-to-gif",
+          },
+          {
+            name: "SVG to JSX",
+            link: "https://svg2jsx.com/",
+          },
+          {
+            name: "JS to TS",
+            link: "https://www.codeconvert.ai/javascript-to-typescript-converter",
+          },
+          {
+            name: "Pug.js to HTML",
+            link: "https://pughtml.com/",
+          },
         ],
       },
       {
@@ -532,6 +580,18 @@ const store: StoreType[] = [
           {
             name: "Page speed",
             link: "https://pagespeed.web.dev/",
+          },
+          {
+            name: "BrowserStack",
+            link: "https://www.browserstack.com/",
+          },
+          {
+            name: "Can I use",
+            link: "https://caniuse.com/",
+          },
+          {
+            name: "ES6 Compatibility",
+            link: "https://compat-table.github.io/compat-table/es6/",
           },
         ],
       },
@@ -633,6 +693,14 @@ const store: StoreType[] = [
             name: "diatv",
             link: "https://diaestudio.com/",
           },
+          {
+            name: "regex101",
+            link: "https://regex101.com/",
+          },
+          {
+            name: "Excalidraw",
+            link: "https://excalidraw.com/",
+          },
         ],
       },
     ],
@@ -693,6 +761,40 @@ const store: StoreType[] = [
           {
             name: "Hackerrank",
             link: "https://www.hackerrank.com/dashboard",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Roadmaps",
+    subCategories: [
+      {
+        subCategory: "Roadmaps",
+        references: [
+          {
+            name: "Full stack developer",
+            link: "https://roadmap.sh/full-stack",
+          },
+          {
+            name: "Frontend developer",
+            link: "https://roadmap.sh/frontend",
+          },
+          {
+            name: "JavaScript",
+            link: "https://roadmap.sh/javascript",
+          },
+          {
+            name: "Node.js",
+            link: "https://roadmap.sh/nodejs",
+          },
+          {
+            name: "React.js",
+            link: "https://roadmap.sh/react",
+          },
+          {
+            name: "Design system",
+            link: "https://roadmap.sh/design-system",
           },
         ],
       },
