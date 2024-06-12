@@ -3,7 +3,7 @@ import store from "../store/store";
 
 export function Main() {
   return (
-    <main>
+    <main className="main">
       {store.map((category, index) => (
         <Category
           cat={category.category}

@@ -11,22 +11,25 @@ function getMenuItem(id: string, name: string) {
 
 export function Menu() {
   return (
-    <div>
-      {store.map((cat, i) => (
-        <div key={i}>
-          {getMenuItem(cat.category, cat.category)}
-          {cat.subCategories.map((subCat, i) => (
-            <div key={i}>
-              {getMenuItem(subCat.subCategory, subCat.subCategory)}
-              {subCat.references.map((ref, i) => (
-                <div key={i}>
-                  {getMenuItem(transformStringToId(ref.name), ref.name)}
-                </div>
-              ))}
-            </div>
-          ))}
-        </div>
-      ))}
+    <div className="menu">
+      <span>TABLE OF CONTENTS</span>
+      <div>
+        {store.map((cat, i) => (
+          <div className="menu__category" key={i}>
+            {getMenuItem(cat.category, cat.category)}
+            {cat.subCategories.map((subCat, i) => (
+              <div className="menu__sub-category" key={i}>
+                {getMenuItem(subCat.subCategory, subCat.subCategory)}
+                {subCat.references.map((ref, i) => (
+                  <div className="menu__link-name" key={i}>
+                    {getMenuItem(transformStringToId(ref.name), ref.name)}
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

@@ -1,0 +1,54 @@
+.main {
+  flex: 1;
+  padding: 10px 30px;
+  margin-left: calc($ASIDE_SIZE + 30px);
+  text-transform: uppercase;
+}
+
+.sub-cat {
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+}
+
+.card {
+  background-color: $dark-gray;
+  max-width: 400px;
+  border-radius: 10px;
+
+  a {
+    display: block;
+  }
+
+  &__img {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+
+    &--no-img {
+      justify-content: center;
+
+      > svg {
+        max-width: 50px;
+      }
+    }
+  }
+
+  &__divisor {
+    height: 5px;
+    background-color: $white;
+    width: 70px;
+    margin: 20px 10px 10px;
+    border-radius: 2px;
+  }
+
+  &__link-name {
+    padding: 0 15px 10px;
+    font-weight: 200;
+  }
+}

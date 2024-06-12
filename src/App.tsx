@@ -1,4 +1,3 @@
-import "./App.css";
 import { Aside, Main } from "./components";
 
 function App() {
