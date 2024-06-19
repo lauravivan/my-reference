@@ -2,8 +2,7 @@
 
 A place to keep all my references in Web Development, Tech World and some other stuff.
 
-_Considerations_
-The design for this project was inspired by Vako Shvili's own design for his Web Design course. The link to his website is included in this collection of links.
+_Considerations:_ The design for this project was inspired by Vako Shvili's own design for his Web Design course. The link to his website is included in this collection of links.
 
 ## Preview
 
