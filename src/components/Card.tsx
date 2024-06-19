@@ -3,29 +3,27 @@ import { transformStringToId } from "../util/util";
 import NoImg from "./icons/NoImg";
 
 type CardType = {
-  refLink: string;
-  refImgPath?: string;
-  refName: string;
+  reference: ReferenceType;
 };
 
-export function Card({ refLink, refImgPath, refName }: CardType) {
+export function Card({ reference }: CardType) {
   return (
-    <article className="card" id={transformStringToId(refName)}>
-      <a href={refLink} target="_blank">
-        {refImgPath && (
+    <article className="card" id={transformStringToId(reference.name)}>
+      <a href={reference.link} target="_blank">
+        {reference.img && (
           <IKImage
             urlEndpoint={import.meta.env.VITE_URL_ENDPOINT}
-            path={refImgPath}
+            path={reference.img}
             className="card__img"
           />
         )}
-        {!refImgPath && (
+        {!reference.img && (
           <div className="card__img card__img--no-img">
             <NoImg />
           </div>
         )}
         <div className="card__divisor"></div>
-        <div className="card__link-name">{refName}</div>
+        <div className="card__link-name">{reference.name}</div>
       </a>
     </article>
   );

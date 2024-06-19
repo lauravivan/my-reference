@@ -1,16 +1,4 @@
-type StoreType = {
-  category: string;
-  subCategories: Array<{
-    subCategory: string;
-    references: Array<{
-      name: string;
-      link?: string;
-      img?: string;
-    }>;
-  }>;
-};
-
-const store: StoreType[] = [
+const store: CategoryType[] = [
   {
     category: "Books",
     subCategories: [

@@ -1,22 +1,16 @@
 import { Card } from "./index";
 
-type SubCategoryType = {
-  subCat: string;
-  subCatItems: object[];
+type SubCategoryComponentType = {
+  subCategory: SubCategoryType;
 };
 
-export function SubCategory({ subCat, subCatItems }: SubCategoryType) {
+export function SubCategory({ subCategory }: SubCategoryComponentType) {
   return (
-    <div className="sub-cat" id={subCat}>
-      <h3 className="sub-cat__name">{subCat}</h3>
+    <div className="sub-cat" id={subCategory.subCategory}>
+      <h3 className="sub-cat__name">{subCategory.subCategory}</h3>
       <div className="sub-cat__cards">
-        {subCatItems.map((item, index) => (
-          <Card
-            key={index}
-            refLink={item.link}
-            refName={item.name}
-            refImgPath={item.img}
-          />
+        {subCategory.references.map((reference, index) => (
+          <Card key={index} reference={reference} />
         ))}
       </div>
     </div>
