@@ -1,16 +1,22 @@
 # my-reference
 
-A place to keep all my references in Web Development, Tech World and some other stuff
+A place to keep all my references in Web Development, Tech World and some other stuff.
+
+_Considerations_
+The design for this project was inspired by Vako Shvili's own design for his Web Design course. The link to his website is included in this collection of links.
 
 ## Preview
+
 ![Project preview](https://github.com/lauravivan/my-reference/assets/64754203/b3d6a488-8113-49c2-bb6d-645479cdcaa7)
 
 ## Future features
+
 - search by category
 - search by subcategory
 - search by link name
 
 ## TOOLS
+
 ![TypeScript Badge](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge)
 ![React Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge)
 ![Sass Badge](https://img.shields.io/badge/Sass-C69?logo=sass&logoColor=fff&style=for-the-badge)
