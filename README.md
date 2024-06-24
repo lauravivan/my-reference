@@ -2,8 +2,6 @@
 
 A place to keep all my references in Web Development, Tech World and some other stuff.
 
-_Considerations:_ The design for this project was inspired by Vako Shvili's own design for his Web Design course. The link to his website is included in this collection of links.
-
 ## Preview
 
 ![Project preview](https://github.com/lauravivan/my-reference/assets/64754203/b3d6a488-8113-49c2-bb6d-645479cdcaa7)
